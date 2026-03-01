@@ -123,7 +123,8 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e89980;
+		/*color: #e89980; */
+		color: #0099ff;
 		text-decoration: none;
 	}
 
@@ -2109,8 +2110,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e89980;
-			box-shadow: 0 0 0 2px #e89980;
+			border-color: #0099ff;
+			box-shadow: 0 0 0 2px #0099ff;
 		}
 
 	select {
@@ -2215,8 +2216,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #e89980;
-			box-shadow: 0 0 0 1px #e89980;
+			border-color: #0099ff;
+			box-shadow: 0 0 0 1px #0099ff;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2422,7 +2423,7 @@
 			}
 
 			.icon.major.accent2 {
-				background: #e89980;
+				background: #0099ff;
 				color: #ffffff;
 			}
 
@@ -2848,7 +2849,7 @@
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #e89980;
+			background-color: #0099ff;
 			color: #ffffff !important;
 		}
 
@@ -3129,7 +3130,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #e89980;
+				background: #0099ff;
 				color: #ffffff;
 			}
 
@@ -3163,7 +3164,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../../images/banner-1.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -3303,7 +3304,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #0099ff;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3325,7 +3326,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: #0099ff;
 		}
 
 		#cta input[type="text"],
